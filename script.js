@@ -29,7 +29,7 @@ function count() {
   }  
   else if (op == "deleni") {
     if (num2 == 0){
-      alert("Číslo nemůže být děleno!! Pepege Clap")
+      alert("Číslo nemůže být děleno 0 !! Pepege Clap")
     }
     num = num1 / num2;
   }
