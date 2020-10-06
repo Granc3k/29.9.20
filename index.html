@@ -17,15 +17,19 @@
 
     <h1>Kalkulačka</h1>
     <input type="number" id="num1">
+    
     <select id="operace">
      <option value="plus">+</option>
      <option value="minus">-</option>
-     <option value="soucin">x</option>
-     <option value="deleni">:</option>
+     <option value="soucin">*</option>
+     <option value="deleni">/</option>
     </select>
+    
     <input type="number" id="num2">
     <input type="button" value="=" onclick="count()">
-    <input type="text" id="vysledek" readonly="readonly">
+    
+    <input type="text" id="num" readonly="readonly">
+    
     <div id="vysledek2">???</div>
 
 
